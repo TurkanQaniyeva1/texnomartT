@@ -1,0 +1,170 @@
+.footer {
+    background-color: #373A36;
+    color: #fff;
+    padding: 30px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+    width: 89%;
+  }
+  
+  .footer-column {
+    flex: 1 1;
+    margin: 10px;
+    min-width: 150px;
+  }
+  
+  .footer-title {
+    color: #ffc107;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .footer-column li {
+    padding: 8px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .footer-column li:hover {
+    color: rgb(211, 211, 211);
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons svg {
+    font-size: 37px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .social-icons svg:hover {
+    color: rgb(211, 211, 211);
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 89%;
+  }
+  
+  .phone-number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .phone-number img {
+    width: 140px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .footer-text img {
+    width: 80px;
+  }
+  
+  .payment-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .payment-icons img {
+    width: 70px;
+    cursor: pointer;
+  } 
+  .scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    background: #ffd100;
+    color: #373A36;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .scroll-to-top:hover {
+    background: #373A36;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+
+  
+    .footer-column {
+      margin: 20px 0;
+    }
+  
+    .footer-bottom {
+      gap: 15px;
+    }
+    .payment-icons img {
+      margin: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-title {
+      font-size: 18px;
+    }
+  
+    .footer-column li {
+      font-size: 12px;
+    }
+  
+    .social-icons{
+        gap: 20px;
+        svg {
+            font-size: 24px;
+          }
+    }
+  
+    .payment-icons{
+        gap: 13px;
+        img {
+            width: 50px;
+          }
+    }
+  .phone-number{
+    img{
+        display: none;
+    }
+  }
+
+  }
+  
