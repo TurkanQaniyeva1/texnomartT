@@ -131,6 +131,8 @@ body {
   width: 100%;
   height: 200px;
   object-fit: cover;
+    display: flex;
+    margin: 0 auto;
 }
 
 .product-card .product-name {
@@ -289,6 +291,10 @@ body {
 }
 
 @media (max-width: 600px) {
+  .product-card{
+    width: 90%;
+    margin: 0 auto;
+  }
   .search-container input {
     padding: 8px 12px;
     font-size: 14px;
